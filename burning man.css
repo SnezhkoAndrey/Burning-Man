@@ -1,0 +1,178 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+#header {
+    background: url('img/header-bg.jpg') no-repeat center top / cover;
+    padding-top: 57px;
+}
+
+header a {
+    color: #ffffff
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.tel {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.greeting {
+    color: #ffffff;
+    margin-top: 230px;
+    padding-bottom: 323px;
+}
+
+.greeting h4 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.greeting h1 {
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 147px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.greeting .button {
+    border: 1px solid #ffffff;
+    padding: 18px 23px;
+    width: fit-content;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.greeting .button:hover {
+    border: 1px solid #ffffff;
+    background-color: black;
+}
+
+.greeting .button span {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+    padding: 0 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+#about .description {
+    display: flex;
+}
+
+#about .mainHeader {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 74px;
+    margin-top: 114px;
+    margin-bottom: 58px;
+}
+
+#about .description .left {
+    margin-right: 30px;   
+}
+
+#about .description .header {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 37px;
+    margin-bottom: 20px;
+}
+
+#about .description .text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#about .description .left .text {
+    margin-bottom: 114px;
+}
+
+#about .description .right .text {
+    margin-bottom: 62px;
+}
+#about .description .left .photos {
+    display: flex;
+}
+
+#about .description .left .photos img:first-child {
+    margin-right: 30px;
+}
+
+#about .description .left .photos img {
+    height: 344px;
+    width: 270px;
+}
+
+#about .description .right .photos img {
+    height: 344px;
+    width: 570px;
+}
+
+#footer {
+    margin-top: 115px;
+    margin-bottom: 80px;
+}
+
+#footer ul {
+    display: flex;
+}
+
+#footer ul li {
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 50px;
+}
